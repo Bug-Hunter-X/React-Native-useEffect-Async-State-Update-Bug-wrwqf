@@ -1,0 +1,1 @@
+This bug occurs when using the `useEffect` hook in React Native with a callback that modifies the state.  If the callback is asynchronous, the state update might not be reflected in the UI immediately. This can lead to unexpected behavior and stale closures.
